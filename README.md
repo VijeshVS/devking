@@ -8,7 +8,7 @@ Features
 
 1.Can Kick Members 
 
-2. 24/7
+2.24/7 Live
 
 3.Can Clear the chat
 
