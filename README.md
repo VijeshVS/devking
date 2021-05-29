@@ -8,7 +8,8 @@ Features
 
 1.Can Kick Members 
 
-2.24/7
+2. 24/7
+
 3.Can Clear the chat
 
 4.Easy Client Login { without .env}
