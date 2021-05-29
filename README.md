@@ -18,13 +18,21 @@ Features
 Commands
 --------
 !kick
+
 !clear
+
 !msg
+
 !serverinfo
+
 !server
 
 Licence
 ------
-Anyone can use. No Copyrights. Reuse Allowed.
+Anyone can use
+
+No Copyrights
+
+Reuse Allowed
 
 
