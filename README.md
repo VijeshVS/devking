@@ -24,9 +24,7 @@ Commands
 
 !msg
 
-!serverinfo
-
-!server
+!ping
 
 Licence
 ------
