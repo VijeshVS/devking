@@ -7,9 +7,12 @@ Features
 --------
 
 1.Can Kick Members 
+
 2.24/7
 3.Can Clear the chat
+
 4.Easy Client Login { without .env}
+
 5.Can Clear Chat 
 
 Commands
