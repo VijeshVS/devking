@@ -1,4 +1,4 @@
-# devking
+# Devking
 Simple Discord Bot
 
               Introducing the discord bot. Easy To Use, Easy To Setup, Specially for Beginners..
