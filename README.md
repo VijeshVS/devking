@@ -20,7 +20,6 @@
 - Ping Latency
 - Realtime Activity
 - 24/7 Online
-- Live streaming support
 
 </div>
 
