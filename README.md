@@ -11,18 +11,12 @@ Features
 2.24/7 Live
 
 3.Can Clear the chat
-
-4.Easy Client Login { without .env}
-
-5.Can Clear Chat 
-
+ 
 Commands
 --------
 !kick
 
 !clear
-
-!msg
 
 !ping
 
