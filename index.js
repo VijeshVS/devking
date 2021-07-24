@@ -99,14 +99,12 @@ client.on('message', message => {
 //now lets make your bot be able to clear the chat
 
 client.on("message", message => {
-    if(message.content === "!clear") 
-    {
-      message.channel.bulkDelete(100)//you can change the value to delete the msg
-      .then(messages => console.log(`Bulk deleted ${messages.size} messages`))
-      .catch(console.error);
-   message.channel.send("Chat cleared"); //you can change the text that your bot want to show after clearing the chat
-    }
-  })
+  if(message.content === "!clearchat") {
+    message.channel.bulkDelete(100)
+    .then(messages => console.log(`Bulk deleted ${messages.size} messages`))
+    .catch(console.error);
+  }
+})
 
   //by this above your bot can now clear chat 
   //bot-clear-chat-function ==================================================================================
@@ -117,16 +115,13 @@ client.on("message", message => {
 
 //set activity >>>
 
-client.on("message", message => {
-  if(message.content === "!clearchat") {
-    message.channel.bulkDelete(100)
-    .then(messages => console.log(`Bulk deleted ${messages.size} messages`))
-    .catch(console.error);
-  }
-})
-
-//clear chat
   
+
+
+
+
+
+
 //                                                Thank You
 
   //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
