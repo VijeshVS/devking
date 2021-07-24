@@ -111,8 +111,22 @@ client.on("message", message => {
   //by this above your bot can now clear chat 
   //bot-clear-chat-function ==================================================================================
 
+  client.on('ready', () => {
+    client.user.setActivity('Discord JS', { type: 'PLAYING' })
+  })
 
-  //This is the end more codes COMING SOON..........................................
-  // Thank You
+//set activity >>>
+
+client.on("message", message => {
+  if(message.content === "!clearchat") {
+    message.channel.bulkDelete(100)
+    .then(messages => console.log(`Bulk deleted ${messages.size} messages`))
+    .catch(console.error);
+  }
+})
+
+//clear chat
+  
+//                                                Thank You
 
   //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
