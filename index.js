@@ -34,9 +34,9 @@ app.listen(3000, () =>{
 //now simple function make your bot to reply to messages
 
 client.on('message', message => {
-	if (message.content === '!dev') //type the response for your bot
+	if (message.content === '!ping') //type the response for your bot
      {
-		message.channel.send('Developed by VijeshVS'); //output by bot
+		message.channel.send('Pong'); //output by bot
 	}
 });
 
@@ -114,6 +114,16 @@ client.on("message", message => {
   })
 
 //set activity >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+//check latency of the bot 
+
+client.on('message', message => {
+  if (message.content === '+ping') {  
+    message.channel.send(`🏓Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
+  }
+});
+
 
 
 
