@@ -17,7 +17,7 @@
 - Kick Members
 - Clear Chat
 - Respond to messages
-- Ping Latency
+- Check Latency
 - Realtime Activity
 - 24/7 Online
 
