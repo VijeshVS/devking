@@ -1,0 +1,9 @@
+Use this below commands to get started:
+
+------------------------------------------------
+npm install discord.js express
+------------------------------------------------
+(note: type the above command in the shell)
+
+
+There you go. Enjoy!
