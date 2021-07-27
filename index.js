@@ -34,9 +34,9 @@ app.listen(3000, () =>{
 //now simple function make your bot to reply to messages
 
 client.on('message', message => {
-	if (message.content === '!ping') //type the response for your bot
+	if (message.content === '!dev') //type the response for your bot
      {
-		message.channel.send('Pong.'); //output by bot
+		message.channel.send('Developed by VijeshVS'); //output by bot
 	}
 });
 
@@ -113,15 +113,10 @@ client.on("message", message => {
     client.user.setActivity('Discord JS', { type: 'PLAYING' })
   })
 
-//set activity >>>
+//set activity >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
 
   
-
-
-
-
-
-
 //                                                Thank You
-
-  //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
