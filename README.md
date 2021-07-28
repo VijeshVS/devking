@@ -15,6 +15,7 @@
 <div style="display:flex;">
   
 - Kick Members
+- Ban Members
 - Clear Chat
 - Respond to messages
 - Check Latency
