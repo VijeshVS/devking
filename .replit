@@ -1,2 +1,4 @@
 language = "nodejs"
-run = "node index.js"
+run = "npm install discord.js express & node index.js"
+
+
