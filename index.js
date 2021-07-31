@@ -36,7 +36,7 @@ app.listen(3000, () =>{
 client.on('message', message => {
 	if (message.content === '!ping') //type the response for your bot
      {
-		message.channel.send('Pong'); //output by bot
+		message.channel.send('pong'); //output by bot
 	}
 });
 
@@ -119,7 +119,7 @@ client.on("message", message => {
 //check latency of the bot 
 
 client.on('message', message => {
-  if (message.content === '+ping') {  
+  if (message.content === '!latency') {  
     message.channel.send(`🏓Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
   }
 });
@@ -132,8 +132,8 @@ client.on('message', message => {
   // Ignore messages that aren't from a guild
   if (!message.guild) return;
 
-  // If the message content starts with "!Ban"
-  if (message.content.startsWith('!Ban')) {
+  // If the message content starts with "!ban"
+  if (message.content.startsWith('!ban')) {
     // Assuming we mention someone in the message, this will return the user
     // Read more about mentions over at https://discord.js.org/#/docs/main/master/class/MessageMentions
     const user = message.mentions.users.first();
@@ -144,21 +144,21 @@ client.on('message', message => {
       // If the member is in the guild
       if (member) {
         /**
-         * Ban the member
+         * ban the member
          * Make sure you run this on a member, not a user!
          * There are big differences between a user and a member
          */
         member
-          .Ban('Optional reason that will display in the audit logs')
+          .ban('Optional reason that will display in the audit logs')
           .then(() => {
-            // We let the message author know we were able to Ban the person
-            message.reply(`Successfully Baned ${user.tag}`);
+            // We let the message author know we were able to ban the person
+            message.reply(`Successfully baned ${user.tag}`);
           })
           .catch(err => {
             // An error happened
-            // This is generally due to the bot not being able to Ban the member,
+            // This is generally due to the bot not being able to ban the member,
             // either due to missing permissions or role hierarchy
-            message.reply('I was unable to Ban the member');
+            message.reply('I was unable to ban the member');
             // Log the error
             console.error(err);
           });
@@ -168,7 +168,7 @@ client.on('message', message => {
       }
       // Otherwise, if no user was mentioned
     } else {
-      message.reply("You didn't mention the user to Ban!");
+      message.reply("You didn't mention the user to ban!");
     }
   }
 });
