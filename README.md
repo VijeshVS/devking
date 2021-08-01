@@ -24,9 +24,22 @@
 
 </div>
 
+<h2 align=center> Commands </h2>
+
+<div style="display:flex;">
+  
+- !kick
+- !ban
+- !clearchat
+- !ping
+- !latency
+
+</div>
+
 <h2 align=center> 👨🏻‍💻 How to get started? </h2> 
 
 - [Cloning Repository to replit](https://replit.com/github/vijeshvs/devking)
+- [Click here for tutorial](https://youtu.be/BKwyh1BKdfE)
 
 <h2 align=center> 🔐 License </h2>
 
