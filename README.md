@@ -40,6 +40,7 @@
 
 - [Cloning Repository to replit](https://replit.com/github/vijeshvs/devking)
 - [Click here for tutorial](https://youtu.be/BKwyh1BKdfE)
+- [Click here to invite the bot to your server](https://bit.ly/devking_bot)
 
 <h2 align=center> 🔐 License </h2>
 
