@@ -44,10 +44,12 @@ client.on('message', message => {
               message.reply('I was unable to kick the member');
               console.error(err);
             });
-        } else {
+        } 
+        else {
           message.reply("That user isn't in this guild!");
         }
-      } else {
+      } 
+      else {
         message.reply("You didn't mention the user to kick!");
       }
     }
@@ -90,11 +92,12 @@ client.on('message', message => {
          
             console.error(err);
           });
-      } else {
-   
+      } 
+      else {
         message.reply("That user isn't in this guild!");
       }
-    } else {
+    } 
+    else {
       message.reply("You didn't mention the user to ban!");
     }
   }
